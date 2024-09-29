@@ -1,2 +1,7 @@
-{ "commands": []
+{ "commands": [
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"21": "05"}, "freq": 1,
+  "signals": [
+    {"id": "IONIQPHEV_HVBAT_SOH", "path": "Battery", "fmt": {"bix": 280, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
+  ]}
+]
 }
