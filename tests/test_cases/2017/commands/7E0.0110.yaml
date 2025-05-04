@@ -1,0 +1,94 @@
+command_id: 7E0.0110
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '7E80441100000'
+  expected_values:
+    MAF: 0
+- response: 7E804411000C3
+  expected_values:
+    MAF: 1.95
+- response: 7E804411000D4
+  expected_values:
+    MAF: 2.12
+- response: 7E804411000DC
+  expected_values:
+    MAF: 2.2
+- response: 7E804411000FC
+  expected_values:
+    MAF: 2.52
+- response: '7E80441100113'
+  expected_values:
+    MAF: 2.75
+- response: '7E80441100119'
+  expected_values:
+    MAF: 2.81
+- response: 7E8044110012D
+  expected_values:
+    MAF: 3.01
+- response: 7E8044110012E
+  expected_values:
+    MAF: 3.02
+- response: '7E80441100132'
+  expected_values:
+    MAF: 3.06
+- response: '7E80441100133'
+  expected_values:
+    MAF: 3.07
+- response: '7E80441100142'
+  expected_values:
+    MAF: 3.22
+- response: '7E80441100143'
+  expected_values:
+    MAF: 3.23
+- response: 7E8044110014C
+  expected_values:
+    MAF: 3.32
+- response: 7E8044110015C
+  expected_values:
+    MAF: 3.48
+- response: 7E8044110015E
+  expected_values:
+    MAF: 3.5
+- response: 7E8044110016E
+  expected_values:
+    MAF: 3.66
+- response: '7E80441100186'
+  expected_values:
+    MAF: 3.9
+- response: 7E804411001C8
+  expected_values:
+    MAF: 4.56
+- response: 7E8044110023C
+  expected_values:
+    MAF: 5.72
+- response: 7E804411002E3
+  expected_values:
+    MAF: 7.39
+- response: 7E804411004A4
+  expected_values:
+    MAF: 11.88
+- response: 7E804411004EB
+  expected_values:
+    MAF: 12.59
+- response: 7E804411004F4
+  expected_values:
+    MAF: 12.68
+- response: '7E80441100551'
+  expected_values:
+    MAF: 13.61
+- response: 7E804411005A4
+  expected_values:
+    MAF: 14.44
+- response: 7E804411005BE
+  expected_values:
+    MAF: 14.7
+- response: 7E804411006C8
+  expected_values:
+    MAF: 17.36
+- response: '7E80441100746'
+  expected_values:
+    MAF: 18.62
+- response: 7E804411007B4
+  expected_values:
+    MAF: 19.72
