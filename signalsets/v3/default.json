@@ -1,12 +1,12 @@
 { "commands": [
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00B"}, "freq": 5,
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00B"}, "freq": 5, "dbgfilter": { "to": 2016, "from": 2019 },
   "signals": [
     {"id": "IONIQPHEV_TP_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
     {"id": "IONIQPHEV_TP_FR", "path": "Tires", "fmt": {"bix": 64,  "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
     {"id": "IONIQPHEV_TP_RR", "path": "Tires", "fmt": {"bix": 96,  "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
     {"id": "IONIQPHEV_TP_RL", "path": "Tires", "fmt": {"bix": 128, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"21": "02"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"21": "02"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2019 },
   "signals": [
     {"id": "IONIQPHEV_HVBAT_CMU001_VOLT", "path": "Battery.Modules.001", "fmt": {"bix": 32,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 001 voltage"},
     {"id": "IONIQPHEV_HVBAT_CMU002_VOLT", "path": "Battery.Modules.002", "fmt": {"bix": 40,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 002 voltage"},
@@ -41,7 +41,7 @@
     {"id": "IONIQPHEV_HVBAT_CMU031_VOLT", "path": "Battery.Modules.031", "fmt": {"bix": 272, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 031 voltage"},
     {"id": "IONIQPHEV_HVBAT_CMU032_VOLT", "path": "Battery.Modules.032", "fmt": {"bix": 280, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 032 voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"21": "03"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"21": "03"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2019 },
   "signals": [
     {"id": "IONIQPHEV_HVBAT_CMU033_VOLT", "path": "Battery.Modules.033", "fmt": {"bix": 32,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 033 voltage"},
     {"id": "IONIQPHEV_HVBAT_CMU034_VOLT", "path": "Battery.Modules.034", "fmt": {"bix": 40,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 034 voltage"},
@@ -76,7 +76,7 @@
     {"id": "IONIQPHEV_HVBAT_CMU063_VOLT", "path": "Battery.Modules.063", "fmt": {"bix": 272, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 063 voltage"},
     {"id": "IONIQPHEV_HVBAT_CMU064_VOLT", "path": "Battery.Modules.064", "fmt": {"bix": 280, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 064 voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"21": "04"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2019 },
   "signals": [
     {"id": "IONIQPHEV_HVBAT_CMU065_VOLT", "path": "Battery.Modules.065", "fmt": {"bix": 32,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 065 voltage"},
     {"id": "IONIQPHEV_HVBAT_CMU066_VOLT", "path": "Battery.Modules.066", "fmt": {"bix": 40,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 066 voltage"},
@@ -111,7 +111,7 @@
     {"id": "IONIQPHEV_HVBAT_CMU095_VOLT", "path": "Battery.Modules.095", "fmt": {"bix": 272, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 095 voltage"},
     {"id": "IONIQPHEV_HVBAT_CMU096_VOLT", "path": "Battery.Modules.096", "fmt": {"bix": 280, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 096 voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"21": "05"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"21": "05"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2019 },
   "signals": [
     {"id": "IONIQPHEV_HVBAT_SOH",      "path": "Battery", "fmt": {"bix": 280, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery health",             "suggestedMetric": "stateOfHealth"},
     {"id": "IONIQPHEV_HVBAT_SOC_DISP", "path": "Battery", "fmt": {"bix": 304, "len": 8,  "max": 100, "div": 2,  "unit": "percent" }, "name": "HV battery charge (displayed)", "suggestedMetric": "stateOfCharge"}
