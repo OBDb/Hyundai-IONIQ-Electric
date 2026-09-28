@@ -1,0 +1,32 @@
+command_id: 770.778.22BC03
+test_cases:
+- expected_values:
+    IONIQEV_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FFEEBC
+    778217300620000AAAA
+- expected_values:
+    IONIQEV_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FFEEBC
+    778217304620000AAAA
+- expected_values:
+    IONIQEV_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FFEEBC
+    77821730A620000AAAA
+- expected_values:
+    IONIQEV_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FFEEBC
+    77821730A660000AAAA
+- expected_values:
+    IONIQEV_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FFEEBC
+    778217340620000AAAA
+- expected_values:
+    IONIQEV_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FFEEBC
+    778217340620002AAAA
