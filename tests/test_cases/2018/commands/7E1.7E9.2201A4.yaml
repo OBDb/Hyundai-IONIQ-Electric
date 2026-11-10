@@ -3,7 +3,6 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 84
     IONIQEV_CLUTCH_2_T: 84
-    IONIQEV_GEAR_CUR: 0
     IONIQEV_GEAR_NXT: 0
   response: |-
     7E910256201A4FFFFE0
@@ -15,7 +14,6 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 86
     IONIQEV_CLUTCH_2_T: 86
-    IONIQEV_GEAR_CUR: 0
     IONIQEV_GEAR_NXT: 0
   response: |-
     7E910256201A4FFFFE0
@@ -27,7 +25,6 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 88
     IONIQEV_CLUTCH_2_T: 88
-    IONIQEV_GEAR_CUR: 0
     IONIQEV_GEAR_NXT: 0
   response: |-
     7E910256201A4FFFFE0
@@ -39,7 +36,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 92
     IONIQEV_CLUTCH_2_T: 86
-    IONIQEV_GEAR_CUR: 1
+    IONIQEV_GEAR_CUR: '1'
     IONIQEV_GEAR_NXT: 1
   response: |-
     7E910256201A4FFFFE0
@@ -51,7 +48,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 96
     IONIQEV_CLUTCH_2_T: 100
-    IONIQEV_GEAR_CUR: 2
+    IONIQEV_GEAR_CUR: '2'
     IONIQEV_GEAR_NXT: 1
   response: |-
     7E910256201A4FFFFE0
@@ -63,7 +60,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 98
     IONIQEV_CLUTCH_2_T: 100
-    IONIQEV_GEAR_CUR: 2
+    IONIQEV_GEAR_CUR: '2'
     IONIQEV_GEAR_NXT: 2
   response: |-
     7E910256201A4FFFFE0
@@ -75,7 +72,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 98
     IONIQEV_CLUTCH_2_T: 94
-    IONIQEV_GEAR_CUR: 3
+    IONIQEV_GEAR_CUR: '3'
     IONIQEV_GEAR_NXT: 3
   response: |-
     7E910256201A4FFFFE0
@@ -87,7 +84,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 80
     IONIQEV_CLUTCH_2_T: 80
-    IONIQEV_GEAR_CUR: 3
+    IONIQEV_GEAR_CUR: '3'
     IONIQEV_GEAR_NXT: 3
   response: |-
     7E910256201A4FFFFE0
@@ -99,7 +96,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 90
     IONIQEV_CLUTCH_2_T: 92
-    IONIQEV_GEAR_CUR: 4
+    IONIQEV_GEAR_CUR: '4'
     IONIQEV_GEAR_NXT: 4
   response: |-
     7E910256201A4FFFFE0
@@ -111,7 +108,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 70
     IONIQEV_CLUTCH_2_T: 70
-    IONIQEV_GEAR_CUR: 5
+    IONIQEV_GEAR_CUR: '5'
     IONIQEV_GEAR_NXT: 4
   response: |-
     7E910256201A4FFFFE0
@@ -123,7 +120,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 70
     IONIQEV_CLUTCH_2_T: 70
-    IONIQEV_GEAR_CUR: 6
+    IONIQEV_GEAR_CUR: '6'
     IONIQEV_GEAR_NXT: 6
   response: |-
     7E910256201A4FFFFE0
@@ -135,7 +132,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 82
     IONIQEV_CLUTCH_2_T: 82
-    IONIQEV_GEAR_CUR: 6
+    IONIQEV_GEAR_CUR: '6'
     IONIQEV_GEAR_NXT: 6
   response: |-
     7E910256201A4FFFFE0
@@ -147,7 +144,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 82
     IONIQEV_CLUTCH_2_T: 82
-    IONIQEV_GEAR_CUR: 1
+    IONIQEV_GEAR_CUR: '1'
     IONIQEV_GEAR_NXT: 1
   response: |-
     7E910256201A4FFFFE0
@@ -159,7 +156,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 92
     IONIQEV_CLUTCH_2_T: 94
-    IONIQEV_GEAR_CUR: 5
+    IONIQEV_GEAR_CUR: '5'
     IONIQEV_GEAR_NXT: 5
   response: |-
     7E910256201A4FFFFE0
@@ -171,7 +168,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 84
     IONIQEV_CLUTCH_2_T: 88
-    IONIQEV_GEAR_CUR: 3
+    IONIQEV_GEAR_CUR: '3'
     IONIQEV_GEAR_NXT: 3
   response: |-
     7E910256201A4FFFFE0
@@ -183,7 +180,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 92
     IONIQEV_CLUTCH_2_T: 90
-    IONIQEV_GEAR_CUR: 5
+    IONIQEV_GEAR_CUR: '5'
     IONIQEV_GEAR_NXT: 5
   response: |-
     7E910256201A4FFFFE0
@@ -195,7 +192,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 90
     IONIQEV_CLUTCH_2_T: 90
-    IONIQEV_GEAR_CUR: 6
+    IONIQEV_GEAR_CUR: '6'
     IONIQEV_GEAR_NXT: 6
   response: |-
     7E910256201A4FFFFE0
@@ -207,7 +204,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 82
     IONIQEV_CLUTCH_2_T: 82
-    IONIQEV_GEAR_CUR: 2
+    IONIQEV_GEAR_CUR: '2'
     IONIQEV_GEAR_NXT: 3
   response: |-
     7E910256201A4FFFFE0
@@ -219,7 +216,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 90
     IONIQEV_CLUTCH_2_T: 84
-    IONIQEV_GEAR_CUR: 3
+    IONIQEV_GEAR_CUR: '3'
     IONIQEV_GEAR_NXT: 3
   response: |-
     7E910256201A4FFFFE0
@@ -231,7 +228,7 @@ test_cases:
 - expected_values:
     IONIQEV_CLUTCH_1_T: 72
     IONIQEV_CLUTCH_2_T: 72
-    IONIQEV_GEAR_CUR: 6
+    IONIQEV_GEAR_CUR: '6'
     IONIQEV_GEAR_NXT: 6
   response: |-
     7E910256201A4FFFFE0
